@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Navbar from "../components/Navbar";
 import Menu from "../components/Menu";
+import Search from "../components/Search";
 
 const Container = styled.div`
   min-height: 100vh;
@@ -17,6 +18,7 @@ function Home() {
   return (
     <Container>
       <Navbar />
+      <Search/>
       <Menu />
     </Container>
   );
